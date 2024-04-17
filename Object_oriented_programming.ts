@@ -13,9 +13,13 @@ class Humen {
       "----------------------------------------------------------------------------"
     );
   }
+  set_Data(name: String, age: number) {
+    this.fullname = name;
+    this.age = age;
+  }
+  
 }
 
 const USER_1: any = new Humen();
-USER_1.fullname = "Thawitchai";
-USER_1.age = 22;
+USER_1.set_Data("Thawitchai", 22);
 USER_1.sayHello();
