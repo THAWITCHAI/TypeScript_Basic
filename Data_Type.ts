@@ -3,7 +3,7 @@ var myBool: boolean;
 var count: number;
 var i;
 
-let myName: String = "Thawitchai";
+let myName: string = "Thawitchai";
 console.log(myName);
 console.log(typeof myName);
 
