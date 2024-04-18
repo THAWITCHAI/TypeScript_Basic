@@ -16,6 +16,15 @@ const sayHello = () => {
     let name = "Thawitchai";
     var age = 15;
   }
-//   console.log(name);
+  //   console.log(name);
   console.log(age);
 };
+
+let arr: number[] = [1, 2, 3, 4, 5, 6];
+arr.map((i) => {
+  console.log(i);
+});
+
+console.log(arr);
+arr.push(15);
+console.log(arr);
